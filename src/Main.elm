@@ -286,6 +286,6 @@ sidebarView =
 
 
 mdIcon attr iconName =
-    i ([ class "material-icons pointer" ] ++ attr)
+    i ([ class "noselect material-icons pointer" ] ++ attr)
         [ text iconName
         ]
